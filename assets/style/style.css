@@ -1,0 +1,67 @@
+html, h1, h2, h3, h4, h5, h6,
+p, header, main, footer, body {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+    font-size: 20px;
+    padding-top: 14px;
+}
+
+.nav li a{
+    color: rgb(131, 128, 128);
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: rgb(56, 55, 55);
+}
+
+header {
+    background-color: rgb(235, 232, 232);
+    height: 100px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    padding-left: 80px;
+    padding-top: 7px;
+}
+
+.gambar {
+    float: left;
+}
+
+.panga {
+    float: left;
+    padding-left: 15px;
+    padding-top: 20px;
+    color: rgb(54, 54, 54);
+    font-size: 17px;
+    padding-right: 35px;
+}
+
+.top-wrapper {
+    background-image: url(../image/gambar.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.atas {
+    margin-top: 200px;
+}
+
+.container h1 {
+    font-size: 45px;
+    opacity: 0.8;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
