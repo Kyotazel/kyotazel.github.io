@@ -82,7 +82,8 @@ main {
     padding: 180px 0 100px 0;
     color: black;
     background-image: url('gambar.jpg');
-    height: 350px;
+    height: 360px;
+    background-size: cover;
 }
 
 .atas-kanan {
